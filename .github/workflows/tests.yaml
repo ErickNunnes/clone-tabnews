@@ -11,7 +11,11 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
+<<<<<<< HEAD
           node-version: "lts/*"
+=======
+          node-version: "lts/hydrogen 20.15.1"
+>>>>>>> 3fd83aba7d550383bbad7fc73c2cbdf9ab35d16f
 
       - run: npm ci
 
